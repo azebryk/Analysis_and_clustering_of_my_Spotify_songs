@@ -41,36 +41,29 @@ I modified this code and added methods to the class aproperate to my case.
 I looked at the general info and distributions of the data. Here are some highlights:
 ### Distribution of danceability
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/danceability.JPG" width=800>
+  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/danceability.JPG" width=600>
 </p>
+
+### Tempo vs Danceability vs Key 
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/tempo_dance_key.JPG" width=800>
+  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/tempo_dance_key.JPG" width=600>
 </p>
 
 ## K-Means clustering
 Selecting number of clusters using elbow method:
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/elbow.JPG" width=800>
+  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/elbow.JPG" width=600>
 </p>
 
 ## Cluster visualisation using TSNE.
 Visualisation of 7 clusters using TSNE:
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/t_sne.JPG" width=800>
+  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/t_sne.JPG" width=600>
 </p>
 
-#### Comment/Observation:
+## Next steps:
 
-- Note: 2021 curve is highlighted
-- PM2.5 lvl is significantly lower during firts week and in general rather lower than in previous years
-- missing days can be observed (2019, 2017)
-- 2015 was omitted due to bad quality of data
-  
-To confirm our observation let's check average temperature and average PM2.5 level in April for each year.
-
-<p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/t_sne.JPG" width=700>
-</p>
+Deeper analysis of 3 different clusters. 
 
 
 
