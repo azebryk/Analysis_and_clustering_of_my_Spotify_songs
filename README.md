@@ -41,19 +41,20 @@ I modified this code and added methods to the class aproperate to my case.
 I looked at the general info and distributions of the data. Here are some highlights:
 ### Distribution of danceability
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/danceability.JPG" width=600>
+  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/danceability.JPG" width=500>
 </p>
 
 ### Tempo vs Danceability vs Key 
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/tempo_dance_key.JPG" width=600>
+  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/tempo_dance_key.JPG" width=500>
 </p>
 
 ## K-Means clustering
 Selecting number of clusters using elbow method:
 <p align="center">
-  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/elbow.JPG" width=600>
+  <img src="https://github.com/azebryk/Analysis_and_clustering_of_my_Spotify_songs/blob/master/images/elbow.JPG" width=500>
 </p>
+Number of cluster selected: 7.
 
 ## Cluster visualisation using TSNE.
 Visualisation of 7 clusters using TSNE:
